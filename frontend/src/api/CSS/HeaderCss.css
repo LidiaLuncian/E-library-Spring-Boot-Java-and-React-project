@@ -1,0 +1,74 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #4f314f;
+    color: white;
+    clear: both;
+    margin-top: -200px;
+}
+
+.head {
+    padding: 22px;
+    background-color:#4f314f;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-bar{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 800px;
+    text-align: left;
+    height: 20px;
+    padding: 0px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4f314f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+    font-family: fantasy;
+}
+
+.account{
+    font-size: 20px;
+}
+a.one{
+    color: white;
+}
+a.one:hover{
+    color: white;
+}
+a.one:link{
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.cart{
+    font-size: 20px;
+}

@@ -1,0 +1,16 @@
+img {
+    height: auto;
+    width: 100%;
+}
+
+.vertical {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.abcd {
+    min-width: 5em;
+    flex: 1;
+}

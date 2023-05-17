@@ -1,0 +1,133 @@
+.welcome{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+
+}
+
+/* Left and right column */
+.column.side {
+    width: 9%;
+
+}
+
+/* Middle column */
+.column.middle {
+    width: 90%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.left {
+    flex: 35%;
+    padding: 15px 0;
+}
+
+.left h2 {
+    padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+    flex: 65%;
+    padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin:0px;
+}
+#myMenu li a {
+    position: relative;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    display: block
+}
+
+#myMenu li a:hover {
+    background-color: #111111;
+}
+
+#myMenu li a:link {
+    text-align: left;
+
+}
+
+.account{
+    size: 100px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.images {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.addbutton{
+    background-color: lightgreen;
+    color: black;
+    padding: 3px 3px;
+}
+
+.book{
+    padding: 5px;
+}
+
+.container-pic{
+    width: 290px;
+    height: 340px;
+}

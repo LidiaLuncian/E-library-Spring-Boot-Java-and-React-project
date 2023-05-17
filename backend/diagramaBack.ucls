@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.raluq.rest.RestfulWebServicesApplication" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/RestfulWebServicesApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="247" x="435" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.BookJpaRepository" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/BookJpaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="407" x="4091" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.BookJpaResource" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/BookJpaResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="214" width="307" x="4277" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.BookHardcodedService" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/BookHardcodedService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="290" x="2673" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.BookResource" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/BookResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="290" x="1872" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.Format" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/Format.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="290" x="3474" y="1898"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="com.raluq.rest.webservice.restfulwebservices.book.Book" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/book/Book.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="574" width="375" x="3474" y="1284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.raluq.rest.webservice.restfulwebservices.favorite.FavouriteService" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/favorite/FavouriteService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="302" x="3417" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.raluq.rest.webservice.restfulwebservices.favorite.FavouriteRepository" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/favorite/FavouriteRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="307" x="3417" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.raluq.rest.webservice.restfulwebservices.favorite.Favorite" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/favorite/Favorite.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="302" x="3132" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.JWTWebSecurityConfig" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JWTWebSecurityConfig.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="332" x="2202" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.jwt.JwtTokenAuthorizationOncePerRequestFilter" project="back-end" 
+    
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JwtTokenAuthorizationOncePerRequestFilter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="447" x="1385" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.JwtTokenUtil" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JwtTokenUtil.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="430" width="328" x="1115" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.JwtUserDetails" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JwtUserDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="322" width="350" x="4209" y="1284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.JwtInMemoryUserDetailsService" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JwtInMemoryUserDetailsService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="284" x="4209" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.jwt.JwtUnAuthorizedResponseAuthenticationEntryPoint" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/JwtUnAuthorizedResponseAuthenticationEntryPoint.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="505" x="2202" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.jwt.resource.JwtAuthenticationRestController" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/resource/JwtAuthenticationRestController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="500" x="845" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.jwt.resource.AuthenticationException" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/resource/AuthenticationException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="330" x="1832" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.resource.PasswordEncoder" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/resource/PasswordEncoder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="330" x="1462" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.resource.JwtTokenResponse" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/resource/JwtTokenResponse.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="330" x="1092" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.raluq.rest.webservice.restfulwebservices.jwt.resource.JwtTokenRequest" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/jwt/resource/JwtTokenRequest.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="330" x="722" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.raluq.rest.webservice.restfulwebservices.order.PlacedOrderJpaRepository" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/order/PlacedOrderJpaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="286" width="292" x="3759" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.raluq.rest.webservice.restfulwebservices.order.PlacedOrder" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/order/PlacedOrder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="304" width="292" x="3474" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.raluq.rest.webservice.restfulwebservices.order.PlacedOrderJpaResource" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/order/PlacedOrderJpaResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="473" x="3764" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.Admin" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/Admin.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="295" x="2747" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.Client" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/Client.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="295" x="3082" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.User" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="411" width="295" x="2914" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.users.repository.UserJpaRepository" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/repository/UserJpaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="352" x="43" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="29" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.users.repository.ClientJpaRepository" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/repository/ClientJpaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="352" x="4533" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" 
+    name="com.raluq.rest.webservice.restfulwebservices.users.repository.AdminJpaRepository" project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/repository/AdminJpaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="352" x="4925" y="814"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="31" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.resource.UserJpaResource" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/resource/UserJpaResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="177" width="363" x="4731" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.resource.AdminJpaResource" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/resource/AdminJpaResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="347" x="4925" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.raluq.rest.webservice.restfulwebservices.users.resource.ClientJpaResource" 
+    project="back-end" 
+    file="/back-end/src/main/java/com/raluq/rest/webservice/restfulwebservices/users/resource/ClientJpaResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="347" x="4538" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="34">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="35" name="bookJpaRepository"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="38" name="jwtUnAuthorizedResponseAuthenticationEntryPoint"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="41">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="42" name="books"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="45" name="bookJpaRepository"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="48" name="format"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="51" name="placedOrderJpaRepository"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="54" name="favouriteService"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="57" name="jwtInMemoryUserDetailsService"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="60">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="61" name="adminJpaRepository"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="64" name="clientJpaRepository"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="67">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="68" name="jwtTokenUtil"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="71" name="jwtTokenUtil"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="74" name="favorites"/>      
+      <multiplicity id="75" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <bendpoint x="3796" y="814"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="77" name="books"/>      
+      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="80" name="jwtAuthenticationTokenFilter"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="83" name="inMemoryUserList"/>      
+      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="86" name="favorite"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="89" name="cart"/>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="92" name="bookJpaRepository"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="95">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="96" name="cart"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="99" name="bookHardcodedService"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="102" name="orders"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
